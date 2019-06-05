@@ -9,11 +9,11 @@ const TodoForm = ({submit, value, searchChange}) => {
 						placeholder="Enter Todo Item Here"
 						value={value}
 						onChange={searchChange}
-						className="form-control mt-1 mr-2"
+						className="form-control mt-1 mr-2 ml-2 mb-2"
 					/>
 					<button 
 					onClick={submit}
-					className="btn btn-outline-light mt-1 ml-2"
+					className="btn btn-outline-light mt-1 ml-2 mb-4"
 					>ADD ITEM</button>
 				</form>
 			</div>
