@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+body{
+  text-align: center;
+  background: #FF0099;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#i{
+  color: red;
+  animation: .8s infinite beatHeart;
+  transform-origin: center;
+  font-size: 40px;
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: rotate(30deg) scale(1);
+  }
+  25% {
+    transform: rotate(-30deg) scale(1.1);
+  }
+  40% {
+    transform: rotate(30deg) scale(1);
+  }
+  60% {
+    transform: rotate(-30deg) scale(1.1);
+  }
+  80% {
+    transform: rotate(30deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(-30deg) scale(1);
+  }
+}
